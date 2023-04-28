@@ -1,4 +1,5 @@
 Chatbot OpenAI
+
 Depuis toujours, tu te demandes comment faire des bots chatgpt qu'on te fait payer une fortune avec des abonnements ? Ceci est ta chance.
 
 1. Introduction

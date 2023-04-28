@@ -18,9 +18,9 @@ def chatbot(conversation_history)
   #Données vers OpenAI
   data = {
     "prompt" => conversation_history,
-    "max_tokens" => 150,
+    "max_tokens" => 500,
     "n" => 1,
-    "temperature" => 0
+    "temperature" => 1
   }
 
   response = HTTP.post(url, headers: headers, body: data.to_json)
